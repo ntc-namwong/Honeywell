@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns="http://schemas.matrikon.com/2010/08/CPM/GenericAPC.xsd">
+	<Controller Name="GSP3_C3MODE">
+		<ExecutionInterval Value="60" />
+		<HP Value="180" />
+		<Mode Source="External" />
+		<OptMode Source="NotUsed" />
+		<OptCost Source="NotUsed" />
+	</Controller>
+	<MVs>
+		<Defaults>
+			<Mode Source="NotUsed" />
+			<High Source="External" />
+			<Low Source="External" />
+			<HEnb Source="Config" Value="1" />
+			<LEnb Source="Config" Value="1" />
+			<MaxUp Source="External" />
+			<MaxDown Source="External" />
+			<MoveEnb Source="Config" Value="1" />
+			<OptMode Source="NotUsed" />
+			<OptCoeff Source="NotUsed" />
+			<WindUp Source="NotUsed" />
+			<SST Source="NotUsed" />
+			<SP Source="NotUsed" />
+		</Defaults>
+		<MV Name="3303TICA035_SV" />
+		<MV Name="3303FICA042_SV" />
+		<MV Name="3304E03BOSP_MV" />
+		<MV Name="3304FICA016_SV" />
+		<MV Name="3304TIRCA008_SV" />
+		<MV Name="3304E03DOSP_MV" />
+		<MV Name="3304TIC006A_SV" />
+		<MV Name="3304TIRC043_SV" />
+		<MV Name="3304FIQC060_SV" />
+		<MV Name="3304FICA048_SV" />
+	</MVs>
+	<DVs>
+		<Defaults>
+			<Mode Source="External" />
+		</Defaults>
+	</DVs>
+	<CVs>
+		<Defaults>
+			<Mode Source="External" />
+			<High Source="External" />
+			<Low Source="External" />
+			<HEnb Source="Config" Value="1" />
+			<LEnb Source="Config" Value="1" />
+			<OptMode Source="NotUsed" />
+			<OptCoeff Source="NotUsed" />
+			<PredErr Source="ExternalPred" />
+			<SST Source="None" />
+			<SP Source="NotUsed" />
+		</Defaults>
+		<CV Name="3306QI045D_PV" />
+		<CV Name="3303TDI035_PV" />
+		<CV Name="3303TICA035_PV" />
+		<CV Name="3303FICA036_SV" />
+		<CV Name="3300QT4CH4_PV" />
+		<CV Name="3303LICA047_MV" />
+		<CV Name="3303TI031A_PV" />
+		<CV Name="3304QI030A_PV" />
+		<CV Name="3304FI027_PV" />
+		<CV Name="3304TDIA003_PV" />
+		<CV Name="3304TI006A_PV" />
+		<CV Name="3304TDIA006_PV" />
+		<CV Name="3300QT4C3H8_PV" />
+		<CV Name="3304FICA001_SV" />
+		<CV Name="3304TIRCA008_PV" />
+		<CV Name="3300QT5AC2H6_PV" />
+		<CV Name="3300QT5BC3H8_PV" />
+		<CV Name="3304TIR047_PV" />
+		<CV Name="3304PDIA040_PV" />
+		<CV Name="3300GCIU_PV" />
+		<CV Name="3304TIRC043_PV" />
+		<CV Name="3304FICA039_SV" />
+		<CV Name="GSP3RQEDB_NX02" />
+		<CV Name="GSP3RQEDB_NX03" />
+		<CV Name="3304TI034A_PV" />
+	</CVs>
+</Configuration>

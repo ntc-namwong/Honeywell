@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns="http://schemas.matrikon.com/2010/08/CPM/GenericAPC.xsd">
+	<Controller Name="GSP1_BF">
+		<ExecutionInterval Value="60" />
+		<HP Value="180" />
+		<Mode Source="External" />
+		<OptMode Source="NotUsed" />
+		<OptCost Source="NotUsed" />
+	</Controller>
+	<MVs>
+		<Defaults>
+			<Mode Source="External" />
+			<High Source="External" />
+			<Low Source="External" />
+			<HEnb Source="Config" Value="1" />
+			<LEnb Source="Config" Value="1" />
+			<MaxUp Source="External" />
+			<MaxDown Source="External" />
+			<MoveEnb Source="Config" Value="1" />
+			<OptMode Source="NotUsed" />
+			<OptCoeff Source="NotUsed" />
+			<WindUp Source="NotUsed" />
+			<SST Source="NotUsed" />
+			<SP Source="NotUsed" />
+		</Defaults>
+		<MV Name="1701FIC007_SP" />
+		<MV Name="1701FICA002_SP" />
+		<MV Name="1701PIC007_SP" />
+		<MV Name="1701TDIC016_MV" />
+		<MV Name="2701FIC007_SP" />
+		<MV Name="2701FICA002_SP" />
+		<MV Name="2701PIC007_SP" />
+		<MV Name="2701TDIC016_MV" />
+		<MV Name="701FIC020_SP" />
+	</MVs>
+	<DVs>
+		<Defaults>
+			<Mode Source="External" />
+		</Defaults>
+		<DV Name="1701FI003_PV" />
+		<DV Name="1701TOTCO2_PV" />
+		<DV Name="2701FI003_PV" />
+		<DV Name="2701TOTCO2_PV" />
+	</DVs>
+	<CVs>
+		<Defaults>
+			<Mode Source="External" />
+			<High Source="External" />
+			<Low Source="ExternalConfig" />
+			<HEnb Source="Config" Value="1" />
+			<LEnb Source="Config" Value="1" />
+			<OptMode Source="NotUsed" />
+			<OptCoeff Source="NotUsed" />
+			<PredErr Source="ExternalPred" />
+			<SST Source="External" />
+			<SP Source="NotUsed" />
+		</Defaults>
+		<CV Name="1701FIA011" />
+		<CV Name="1701LRA006" />
+		<CV Name="1701QRA0012A" />
+		<CV Name="1701TI014" />
+		<CV Name="2701FIA011" />
+		<CV Name="2701LRA006" />
+		<CV Name="2701QRA0013A" />
+		<CV Name="2701TI014" />
+		<CV Name="701FIC020_PV" />
+		<CV Name="701QRA0123A" />
+		<CV Name="701QRA0123B">
+			<Low Value="-1000000000000000" />
+		</CV>
+		<CV Name="703PIC001_MV">
+			<Low Value="-1000000000000000" />
+		</CV>
+	</CVs>
+</Configuration>
